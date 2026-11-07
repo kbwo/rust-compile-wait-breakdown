@@ -1,0 +1,18 @@
+#!/bin/sh
+# Linker wrapper: runs the system C compiler driver (which invokes the linker)
+# and appends the start and end time (nanoseconds) and output file to $LINK_LOG.
+# rustc passes the linker flags; -fuse-ld=lld / -fuse-ld=mold arrive via RUSTFLAGS.
+s=$(date +%s%N)
+cc "$@"
+rc=$?
+e=$(date +%s%N)
+out="?"
+prev=""
+for a in "$@"; do
+  if [ "$prev" = "-o" ]; then out="$a"; fi
+  prev="$a"
+done
+if [ -n "$LINK_LOG" ]; then
+  echo "$s $e $out" >> "$LINK_LOG"
+fi
+exit $rc

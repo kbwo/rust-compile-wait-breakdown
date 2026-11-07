@@ -1,0 +1,13 @@
+08:44:52 {"repo": "kakoune", "kind": "clean", "change": "clean", "cmd": "make", "profile": "debug", "linker": "default", "iter": 0, "warmup": false, "seconds": 21.984, "note": "single run, reference only"}
+08:44:55 {"repo": "kakoune", "kind": "incr", "change": "cc", "cmd": "make", "profile": "debug", "linker": "default", "iter": 0, "warmup": true, "seconds": 2.774, "compiled_files": 1}
+08:44:57 {"repo": "kakoune", "kind": "incr", "change": "cc", "cmd": "make", "profile": "debug", "linker": "default", "iter": 1, "warmup": false, "seconds": 2.703, "compiled_files": 1}
+08:45:00 {"repo": "kakoune", "kind": "incr", "change": "cc", "cmd": "make", "profile": "debug", "linker": "default", "iter": 2, "warmup": false, "seconds": 2.692, "compiled_files": 1}
+08:45:03 {"repo": "kakoune", "kind": "incr", "change": "cc", "cmd": "make", "profile": "debug", "linker": "default", "iter": 3, "warmup": false, "seconds": 2.622, "compiled_files": 1}
+08:45:05 {"repo": "kakoune", "kind": "incr", "change": "cc", "cmd": "make", "profile": "debug", "linker": "default", "iter": 4, "warmup": false, "seconds": 2.755, "compiled_files": 1}
+08:45:08 {"repo": "kakoune", "kind": "incr", "change": "cc", "cmd": "make", "profile": "debug", "linker": "default", "iter": 5, "warmup": false, "seconds": 2.652, "compiled_files": 1}
+08:45:30 {"repo": "kakoune", "kind": "incr", "change": "header", "cmd": "make", "profile": "debug", "linker": "default", "iter": 0, "warmup": true, "seconds": 21.551, "compiled_files": 56}
+08:45:52 {"repo": "kakoune", "kind": "incr", "change": "header", "cmd": "make", "profile": "debug", "linker": "default", "iter": 1, "warmup": false, "seconds": 21.973, "compiled_files": 56}
+08:46:14 {"repo": "kakoune", "kind": "incr", "change": "header", "cmd": "make", "profile": "debug", "linker": "default", "iter": 2, "warmup": false, "seconds": 22.03, "compiled_files": 56}
+08:46:35 {"repo": "kakoune", "kind": "incr", "change": "header", "cmd": "make", "profile": "debug", "linker": "default", "iter": 3, "warmup": false, "seconds": 21.733, "compiled_files": 56}
+08:46:57 {"repo": "kakoune", "kind": "incr", "change": "header", "cmd": "make", "profile": "debug", "linker": "default", "iter": 4, "warmup": false, "seconds": 21.813, "compiled_files": 56}
+08:47:19 {"repo": "kakoune", "kind": "incr", "change": "header", "cmd": "make", "profile": "debug", "linker": "default", "iter": 5, "warmup": false, "seconds": 21.545, "compiled_files": 56}
